@@ -37,7 +37,7 @@ if (cardsInPlay.length===2 && cardsInPlay[0]===cardsInPlay[1]) {
 } else {alert("Sorry, try again.")}
 //are the following placed correctly in this function? 
 console.log("User flipped" + cards[cardId]);
-cardsInPlay.push(cards[].rank);//come back to this
+cardsInPlay.push(cards[].rank);
 cardsInPlay.push(cards[cardId].suit);
 console.log(suit);
 cardsInPlay.push(cards[cardId].cardImage);
@@ -46,3 +46,4 @@ checkForMatch();
 };
 flipCards(0);
 flipCards(2);
+function createBoard(){};
